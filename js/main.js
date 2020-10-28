@@ -8,9 +8,12 @@ $(document).ready( function() {
   var products = $(".dropdown-products .menu-products");
   var firm = $(".dropdown-firm > menu-firm");
 
-  // evento click
+  // evento click products
   dropdownP.click(function() {
     $(this).next(".menu-products").toggle();
   });
-
+  // evento click firm
+  dropdownF.click(function() {
+    $(this).next(".menu-firm").toggle();
+  });
 });// fine documento
