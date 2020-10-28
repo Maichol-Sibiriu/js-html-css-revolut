@@ -45,10 +45,54 @@ img{
 .info li{
   text-transform: uppercase;
 }
+
+/* nav right menu */
 .menu{
   list-style: none;
   align-items: center;
 }
+/* dropdown */
+.dropdown-products .menu-products ul,
+.dropdown-firm .menu-firm ul{
+  list-style: none;
+}
+.dropdown-products,
+.dropdown-firm{
+  position: relative;
+}
+.menu-products ul li,
+.menu-firm ul li{
+  margin-left: 0px;
+  line-height: 40px;
+}
+.menu-products{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateX(-25%);
+  width: 255px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0px 20px;
+  font-size: 13px;
+}
+
+
+
+
+
+.menu-firm{
+  position: absolute;
+  top: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.menu-firm{
+  display: none;
+}
+/* button */
 .info li,
 .menu li,
 button{
