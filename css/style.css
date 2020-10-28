@@ -1,0 +1,70 @@
+/* general */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  opacity: .4;
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+/* layout */
+.container{
+  width: 1170px;
+  margin: 30px auto;
+}
+.nav-left{
+  width: 39%;
+}
+.nav-right{
+  width: 60%;
+}
+.nav-right{
+  justify-content: flex-end;
+}
+/* utility */
+.flex{
+  display: flex;
+}
+/* header navbar */
+/* logo */
+img{
+  width: 100px;
+}
+.info{
+  list-style: none;
+  align-items: center;
+}
+.info li{
+  text-transform: uppercase;
+}
+.menu{
+  list-style: none;
+  align-items: center;
+}
+.info li,
+.menu li,
+button{
+  margin-left: 30px;
+}
+.fa-angle-down{
+  position: relative;
+  top: 3px;
+}
+button{
+  padding: 8px 20px;
+  font-size: 17px;
+  border-radius: 20px;
+  box-shadow: none;
+  cursor: pointer;
+  color: white;
+  background-color: #eb008e;
+  opacity: 1;
+}
